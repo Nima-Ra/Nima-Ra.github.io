@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>ROT13</title>
+    <script src="./Vue.js"></script>
+    <link rel="stylesheet" type="text/css" href="./style.css">
+  </head>
+  <body>
+    <span>ROT 13:</span>
+    <div id="editor">
+      <span class="result" >{{ encode }}</span>
+      <textarea v-model="message" placeholder="TYPE HERE" @keyup="_ROT13()" spellcheck="false"></textarea>
+    </div>
+    <a href="https://GitHub.com/NimaRasooli/ROT13">SOURCE ON GITHUB (click!)</a>
+    <script src="./ROT13.js"></script>
+  </body>
+</html>
