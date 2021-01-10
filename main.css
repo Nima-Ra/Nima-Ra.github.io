@@ -328,8 +328,7 @@ body,html {
 
 #honours ul li {
   float: left;
-  text-align: left;
-  justify-content: center;
+  text-align: justify !important;
   width: 100%;
   line-height: 1.5;
   margin: 7px 0;
